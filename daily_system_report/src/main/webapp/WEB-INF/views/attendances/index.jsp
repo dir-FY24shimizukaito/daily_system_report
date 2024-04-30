@@ -29,7 +29,7 @@
                     <tr class="row${status.count % 2}">
                         <td class="attendance_name"><c:out value="${attendance.employee.name}" /></td>
                         <td class="attendance_date"><fmt:formatDate value='${attendanceDay}' pattern='yyyy-MM-dd' /></td>
-                        <td class="attendance_action"><a href="<c:url value='?action=${actAtt}&command=${commShow}&id=${Attendance.id}' />">詳細を見る</a></td>
+                        <td class="attendance_action"><a href="<c:url value='?action=${actAtt}&command=${commShow}' />">詳細を見る</a></td>
                     </tr>
                 </c:forEach>
             </tbody>
